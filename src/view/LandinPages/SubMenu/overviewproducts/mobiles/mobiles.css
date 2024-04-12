@@ -1,0 +1,19 @@
+.mobiles-continer{
+    height: 8rem;
+    width: 8rem;
+    color: #000;
+    display: grid;
+    /* background-color: red; */
+    place-items: center;
+}
+
+.mobiles-image-continer{
+    height: 8rem;
+    width: 8rem;
+}
+
+/* img{
+    height: 110%;
+    width: 120%;
+    object-fit: cover;
+} */

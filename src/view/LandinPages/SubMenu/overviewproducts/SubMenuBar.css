@@ -1,0 +1,21 @@
+.main-continer-landing-page{
+    min-height: 9rem;
+    /* width: 100vw; */
+    margin: auto;
+    width: 95%;
+    margin-top: 0.5%;
+}
+
+.main-sub-continer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    min-height: 100%;
+    
+}
+
+/* .main-continer div{
+    padding: 0px 30px;
+} */

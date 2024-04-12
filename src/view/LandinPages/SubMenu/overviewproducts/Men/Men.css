@@ -1,0 +1,33 @@
+.Products-continer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(auto-fill, 120px); */
+}
+
+.Products-continer-items{
+   margin: 1rem;
+   /* border: 1px solid #000; */
+}
+
+
+.Products-continer-items h4{
+   font-family: sans-serif;
+   color: #000;
+   text-align: left;
+   cursor: pointer;
+ }
+
+ .Products-continer-items h4::after{
+    content: "▶";
+    color: #b8b7b7;
+    padding: 0px 5px;
+  }
+
+
+ .Products-continer-items p{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #4b4b4b;
+    text-align: left;
+    cursor: pointer;
+  }

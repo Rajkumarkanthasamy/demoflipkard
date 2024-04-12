@@ -1,0 +1,12 @@
+.main-continer-view{
+    min-height: 3.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+}
+
+/* .main-continer div{
+    padding: 0px 30px;
+} */

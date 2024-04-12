@@ -1,0 +1,39 @@
+.tv-Products-continer{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* grid-template-rows: repeat(auto-fill, 120px); */
+}
+
+.tv-Products-continer-items{
+  margin: 1rem;
+  /* border: 1px solid #000; */
+}
+
+
+.tv-Products-continer-items h4{
+  font-family: sans-serif;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.tv-Products-continer-items h4::after{
+   content: "▶";
+   color: #b8b7b7;
+   padding: 0px 5px;
+ }
+
+
+.tv-Products-continer-items p{
+   font-weight: lighter;
+   color: #4b4b4b;
+   text-align: left;
+   cursor: pointer;
+   font-size: 13px;
+   
+ }
+
+ .tv-button-color:hover{
+  color: #2874f0 !important;
+ }
